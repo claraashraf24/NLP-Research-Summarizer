@@ -1,0 +1,12 @@
+pdf:
+  path: 'cats_paper.pdf'
+web:
+  url: 'https://arxiv.org/abs/2409.05400'
+
+summarization:
+  model_name: 'sshleifer/distilbart-cnn-12-6'
+  max_chunk_size: 256
+  max_length: 60
+  min_length: 30
+output:
+  metadata_json: 'metadata_output.json'
